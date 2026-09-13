@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { IconType } from "react-icons";
 import { FaArrowRight, FaBriefcase, FaCertificate, FaCheckCircle, FaGlobeAsia, FaIndustry, FaPhoneAlt, FaShip, FaUserGraduate, FaUsers } from "react-icons/fa";
 import { CourseCard } from "@/src/components/CourseCard";
+import { FeedbackCarousel } from "@/src/components/FeedbackCarousel";
 import { JsonLd } from "@/src/components/JsonLd";
 import { LeadForm } from "@/src/components/LeadForm";
 import { SectionHeading } from "@/src/components/SectionHeading";
@@ -317,6 +318,13 @@ export default function Home() {
               </details>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="section feedback-section">
+        <div className="container reveal">
+          <SectionHeading eyebrow="Candidate feedback" title="Our successful candidates" />
+          <FeedbackCarousel />
         </div>
       </section>
     </>
