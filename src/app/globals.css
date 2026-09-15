@@ -728,6 +728,18 @@ img {
   }
 }
 
+@keyframes opportunity-blink {
+  0%,
+  100% {
+    border-color: rgb(255 255 255 / 44%);
+    box-shadow: 0 10px 22px rgb(0 0 0 / 24%), inset 0 1px 0 rgb(255 255 255 / 16%);
+  }
+  50% {
+    border-color: rgb(255 255 255 / 92%);
+    box-shadow: 0 14px 28px rgb(0 183 255 / 28%), inset 0 1px 0 rgb(255 255 255 / 36%);
+  }
+}
+
 @media (max-width: 767px) {
   .hero-shell {
     background: #020826;
@@ -858,6 +870,7 @@ img {
     padding-right: 0;
     color: #fff;
     box-shadow: 0 10px 22px rgb(0 0 0 / 24%), inset 0 1px 0 rgb(255 255 255 / 16%);
+    animation: opportunity-blink 1.9s ease-in-out infinite;
   }
 
   .mobile-opportunity-card-offshore {

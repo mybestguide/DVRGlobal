@@ -395,6 +395,22 @@ export const placementStories = [
 ];
 
 export const galleryItems = [
+  { title: "DVR Gallery 01", type: "Placement Gallery", image: "/gallery/dvr-gallery-01.jpeg" },
+  { title: "DVR Gallery 02", type: "Placement Gallery", image: "/gallery/dvr-gallery-02.jpeg" },
+  { title: "DVR Gallery 03", type: "Placement Gallery", image: "/gallery/dvr-gallery-03.jpeg" },
+  { title: "DVR Gallery 04", type: "Placement Gallery", image: "/gallery/dvr-gallery-04.jpeg" },
+  { title: "DVR Gallery 05", type: "Placement Gallery", image: "/gallery/dvr-gallery-05.jpeg" },
+  { title: "DVR Gallery 06", type: "Placement Gallery", image: "/gallery/dvr-gallery-06.jpeg" },
+  { title: "DVR Gallery 07", type: "Placement Gallery", image: "/gallery/dvr-gallery-07.jpeg" },
+  { title: "DVR Gallery 08", type: "Placement Gallery", image: "/gallery/dvr-gallery-08.jpeg" },
+  { title: "DVR Gallery 09", type: "Placement Gallery", image: "/gallery/dvr-gallery-09.jpeg" },
+  { title: "DVR Gallery 10", type: "Placement Gallery", image: "/gallery/dvr-gallery-10.jpeg" },
+  { title: "DVR Gallery 11", type: "Placement Gallery", image: "/gallery/dvr-gallery-11.jpeg" },
+  { title: "DVR Gallery 12", type: "Placement Gallery", image: "/gallery/dvr-gallery-12.jpeg" },
+  { title: "DVR Gallery 13", type: "Placement Gallery", image: "/gallery/dvr-gallery-13.jpeg" },
+  { title: "DVR Gallery 14", type: "Placement Gallery", image: "/gallery/dvr-gallery-14.jpeg" },
+  { title: "DVR Gallery 15", type: "Placement Gallery", image: "/gallery/dvr-gallery-15.jpeg" },
+  // { title: "DVR Gallery 16", type: "Placement Gallery", image: "/gallery/dvr-gallery-16.jpeg" },
   { title: "Placement Photo 01", type: "Placement Gallery", image: "/gallery/placement-photo-01.jpeg" },
   { title: "Placement Photo 02", type: "Placement Gallery", image: "/gallery/placement-photo-02.jpeg" },
   { title: "Placement Photo 03", type: "Training Gallery", image: "/gallery/placement-photo-03.jpeg" },

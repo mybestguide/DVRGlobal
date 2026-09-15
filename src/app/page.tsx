@@ -53,8 +53,8 @@ export default function Home() {
         <div className="mobile-hero-content relative z-10 px-4 pb-4 pt-4 md:hidden">
           <div className="mobile-hero-copy">
             <h1>
-              Global Opportunities
-              <span>Endless Possibilities</span>
+              Onshore &amp; Offshore
+              <span>Global Opportunities</span>
             </h1>
             <p>
               Your Gateway to Exciting Careers
@@ -72,24 +72,24 @@ export default function Home() {
 
           <div className="mobile-hero-bottom">
             <div className="mobile-opportunity-stack" aria-label="Career opportunity highlights">
-              <Link href="/categories/offshore-training" className="mobile-opportunity-card mobile-opportunity-card-offshore">
-                <span className="mobile-opportunity-icon"><FaShip aria-hidden="true" /></span>
-                <span className="mobile-opportunity-copy">
-                  <strong>Offshore <span>Opportunities</span></strong>
-                  <small>Explore high-growth careers on offshore rigs and offshore facilities worldwide.</small>
-                </span>
-                <span className="mobile-opportunity-image" aria-hidden="true">
-                  <Image src="/home-images/mobile-card-offshore.png" alt="" fill sizes="45vw" />
-                </span>
-              </Link>
               <Link href="/categories/onshore-training" className="mobile-opportunity-card mobile-opportunity-card-onshore">
                 <span className="mobile-opportunity-icon"><FaIndustry aria-hidden="true" /></span>
                 <span className="mobile-opportunity-copy">
-                  <strong>Onshore <span>Opportunities</span></strong>
+                  <strong>Onshore <span>Careers</span></strong>
                   <small>Build a successful career in onshore plants and refineries with global leaders.</small>
                 </span>
                 <span className="mobile-opportunity-image" aria-hidden="true">
                   <Image src="/home-images/mobile-card-onshore.png" alt="" fill sizes="45vw" />
+                </span>
+              </Link>
+              <Link href="/categories/offshore-training" className="mobile-opportunity-card mobile-opportunity-card-offshore">
+                <span className="mobile-opportunity-icon"><FaShip aria-hidden="true" /></span>
+                <span className="mobile-opportunity-copy">
+                  <strong>Offshore <span>Careers</span></strong>
+                  <small>Explore high-growth careers on offshore rigs and offshore facilities worldwide.</small>
+                </span>
+                <span className="mobile-opportunity-image" aria-hidden="true">
+                  <Image src="/home-images/mobile-card-offshore.png" alt="" fill sizes="45vw" />
                 </span>
               </Link>
             </div>
@@ -110,8 +110,8 @@ export default function Home() {
               Industry Skills. Global Careers.
             </p>
             <h3 className="mt-4 text-xl font-bold uppercase leading-[1.08] tracking-normal text-white md:text-3xl lg:text-5xl">
-              Global Opportunities
-              <span className="block text-[var(--brand-sky)]">Endless Possibilities</span>
+              Onshore &amp; Offshore
+              <span className="block text-[var(--brand-sky)]">Global Opportunities</span>
             </h3>
             <p className="mx-auto mt-4 max-w-2xl text-sm font-semibold leading-6 text-blue-50 md:text-base">
               Your Gateway to Exciting Careers in Oil &amp; Gas, Energy, and Beyond.
@@ -126,7 +126,7 @@ export default function Home() {
               <span className="mx-auto grid h-8 w-8 place-items-center rounded-full border-2 border-white/75 text-sm md:h-11 md:w-11 md:text-lg">
                 <FaIndustry aria-hidden="true" />
               </span>
-              <h2 className="mt-2 text-[0.68rem] font-extrabold uppercase leading-4 tracking-wide md:mt-3 md:text-sm">Onshore Opportunities</h2>
+              <h2 className="mt-2 text-[0.68rem] font-extrabold uppercase leading-4 tracking-wide md:mt-3 md:text-sm">Onshore Careers</h2>
               <p className="mx-auto mt-1.5 max-w-[15rem] text-[0.68rem] font-medium leading-4 text-orange-50 md:mt-2 md:max-w-sm md:text-[0.78rem] md:leading-5">
                 Build a successful career in onshore plants and refineries with global leaders.
               </p>
@@ -135,7 +135,7 @@ export default function Home() {
               <span className="mx-auto grid h-8 w-8 place-items-center rounded-full border-2 border-white/70 text-sm md:h-11 md:w-11 md:text-lg">
                 <FaShip aria-hidden="true" />
               </span>
-              <h2 className="mt-2 text-[0.68rem] font-extrabold uppercase leading-4 tracking-wide md:mt-3 md:text-sm">Offshore Opportunities</h2>
+              <h2 className="mt-2 text-[0.68rem] font-extrabold uppercase leading-4 tracking-wide md:mt-3 md:text-sm">Offshore Careers</h2>
               <p className="mx-auto mt-1.5 max-w-[15rem] text-[0.68rem] font-medium leading-4 text-blue-50 md:mt-2 md:max-w-sm md:text-[0.78rem] md:leading-5">
                 Explore high-growth careers on offshore rigs and offshore facilities worldwide.
               </p>
@@ -146,12 +146,12 @@ export default function Home() {
 
       <section className="section bg-[var(--surface)]">
         <div className="container reveal">
-          <SectionHeading eyebrow="Main courses" title="5 core courses for global career pathways" text="Choose industry-oriented training designed for beginners, aspiring professionals, freshers, and experienced professionals preparing for India, GCC, and global market opportunities." />
+          <SectionHeading eyebrow="Main programs" title="5 core programs for global career pathways" text="Choose industry-oriented training designed for beginners, aspiring professionals, freshers, and experienced professionals preparing for India, GCC, and global market opportunities." />
           <div className="stagger mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {mainCourses.slice(0, 3).map((course) => <CourseCard key={course.slug} course={course} />)}
           </div>
           <div className="mt-10 text-center">
-            <Link href="/courses" className="btn btn-accent px-8 py-4 text-base">View Main Courses</Link>
+            <Link href="/courses" className="btn btn-accent px-8 py-4 text-base">View Main Programs</Link>
           </div>
         </div>
       </section>

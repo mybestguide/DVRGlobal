@@ -649,7 +649,13 @@ export const courses: Course[] = [
   },
 ];
 
-export const mainCourses = courses.slice(0, 5);
+export const mainCourses = [
+  "mechanical-fitter",
+  "banksman-training",
+  "pipe-fitter",
+  "roustabout-training",
+  "oil-gas-field-training",
+].map((slug) => courses.find((course) => course.slug === slug)!);
 
 export function getCourse(slug: string) {
   return courses.find((course) => course.slug === slug);

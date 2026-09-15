@@ -26,7 +26,7 @@ export default function AboutPage() {
           <div className="reveal">
             <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-lg border border-white/70 bg-white shadow-xl">
               <Image
-                src="/founder-raju-durai.jpeg"
+                src="/founder-raju-durai-office.png"
                 alt="Mr. Raju Durai, Founder and Managing Director of DVR Oil and Gas Training Institute"
                 fill
                 priority
