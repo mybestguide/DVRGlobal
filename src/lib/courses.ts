@@ -3,7 +3,7 @@ import { imageAssets } from "./site";
 export type CourseCategory =
   | "Offshore Training"
   | "Onshore Training"
-  | "Wharehouse Management in Logistics and Supply Chain"
+  | "Warehouse Management in Logistics and Supply Chain"
   | "Shipbuilding Careers"
   | "Diploma in Fire and Safety Engineering";
 
@@ -51,7 +51,7 @@ export const categories: {
   },
   {
     slug: "warehouse-logistics",
-    name: "Wharehouse Management in Logistics and Supply Chain",
+    name: "Warehouse Management in Logistics and Supply Chain",
     description:
       "Practical warehouse, logistics, inventory, store keeping, and supply chain career training with placement assistance.",
     image: imageAssets.warehouseLogistics,
@@ -410,7 +410,7 @@ export const courses: Course[] = [
   {
     slug: "warehouse-operations-inventory-management",
     name: "Warehouse Operations & Inventory Management",
-    category: "Wharehouse Management in Logistics and Supply Chain",
+    category: "Warehouse Management in Logistics and Supply Chain",
     summary: "Job-oriented training in warehouse operations, inventory management, material handling, logistics, and supply chain processes.",
     overview: warehouseOverview,
     description:
@@ -430,7 +430,7 @@ export const courses: Course[] = [
   {
     slug: "warehouse-material-handling-logistics",
     name: "Warehouse Material Handling & Logistics",
-    category: "Wharehouse Management in Logistics and Supply Chain",
+    category: "Warehouse Management in Logistics and Supply Chain",
     summary: "Learn warehouse operations, inventory control, material handling, and logistics with practical industry-focused training.",
     overview: warehouseOverview,
     description:
@@ -450,7 +450,7 @@ export const courses: Course[] = [
   {
     slug: "inventory-handling-stock-management-logistics-coordination",
     name: "Inventory Handling, Stock Management & Logistics Coordination",
-    category: "Wharehouse Management in Logistics and Supply Chain",
+    category: "Warehouse Management in Logistics and Supply Chain",
     summary: "Learn warehouse operations, inventory handling, stock management, and logistics coordination through practical job-focused training.",
     overview: warehouseOverview,
     description:
@@ -470,7 +470,7 @@ export const courses: Course[] = [
   {
     slug: "logistics-management-supply-chain-training",
     name: "Logistics Management & Supply Chain Training",
-    category: "Wharehouse Management in Logistics and Supply Chain",
+    category: "Warehouse Management in Logistics and Supply Chain",
     summary: "Master warehouse operations, inventory control, stock handling, and logistics management with practical industry-oriented training.",
     overview: warehouseOverview,
     description:
