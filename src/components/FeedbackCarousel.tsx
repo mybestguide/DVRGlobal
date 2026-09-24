@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight, FaQuoteLeft } from "react-icons/fa";
 import { homeFeedbacks } from "@/src/lib/content";
@@ -28,11 +29,23 @@ export function FeedbackCarousel() {
       </button>
 
       <article className="feedback-carousel-card" aria-live="polite">
-        <FaQuoteLeft className="feedback-carousel-quote-icon" aria-hidden="true" />
-        <p className="feedback-carousel-quote">&quot;{activeFeedback.quote}&quot;</p>
-        <div className="feedback-carousel-author">
-          <span>{activeFeedback.name}</span>
-          <small>{activeFeedback.country}</small>
+        <div className="feedback-carousel-media">
+          <Image
+            src={activeFeedback.image}
+            alt={`${activeFeedback.name} student testimonial`}
+            fill
+            sizes="(min-width: 768px) 15rem, 11rem"
+            className="object-contain object-top"
+            priority={activeIndex === 0}
+          />
+        </div>
+        <div className="feedback-carousel-copy">
+          <FaQuoteLeft className="feedback-carousel-quote-icon" aria-hidden="true" />
+          <p className="feedback-carousel-quote">&quot;{activeFeedback.quote}&quot;</p>
+          <div className="feedback-carousel-author">
+            <span>{activeFeedback.name}</span>
+            <small>{activeFeedback.country}</small>
+          </div>
         </div>
       </article>
 

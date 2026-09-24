@@ -53,8 +53,8 @@ export default function Home() {
         <div className="mobile-hero-content relative z-10 px-4 pb-4 pt-4 md:hidden">
           <div className="mobile-hero-copy">
             <h1>
-              Onshore &amp; Offshore
-              <span>Global Opportunities</span>
+              <span>Onshore&nbsp;&amp;&nbsp;Offshore</span>
+              <span>Global&nbsp;Opportunities</span>
             </h1>
             <p>
               Your Gateway to Exciting Careers
@@ -76,7 +76,7 @@ export default function Home() {
                 <span className="mobile-opportunity-icon"><FaIndustry aria-hidden="true" /></span>
                 <span className="mobile-opportunity-copy">
                   <strong>Onshore <span>Careers</span></strong>
-                  <small>Build a successful career in onshore plants and refineries with global leaders.</small>
+                  <small>Career growth in onshore plants and refineries.</small>
                 </span>
                 <span className="mobile-opportunity-image" aria-hidden="true">
                   <Image src="/home-images/mobile-card-onshore.png" alt="" fill sizes="45vw" />
@@ -86,7 +86,7 @@ export default function Home() {
                 <span className="mobile-opportunity-icon"><FaShip aria-hidden="true" /></span>
                 <span className="mobile-opportunity-copy">
                   <strong>Offshore <span>Careers</span></strong>
-                  <small>Explore high-growth careers on offshore rigs and offshore facilities worldwide.</small>
+                  <small>Career paths on offshore rigs and facilities.</small>
                 </span>
                 <span className="mobile-opportunity-image" aria-hidden="true">
                   <Image src="/home-images/mobile-card-offshore.png" alt="" fill sizes="45vw" />

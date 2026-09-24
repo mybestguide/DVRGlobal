@@ -300,60 +300,70 @@ export const homeFeedbacks = [
   {
     name: "Suresh D.",
     country: "Saudi Arabia",
+    image: "/testimonials/feedback-suresh-d.png",
     quote:
       "DVR provided practical and industry-oriented Oil & Gas training. The hands-on learning helped me understand the real work environment and prepared me for my career.",
   },
   {
     name: "M. Abdul Kareem",
     country: "Saudi Arabia",
+    image: "/testimonials/feedback-m-abdul-kareem.png",
     quote:
       "The training at DVR improved my knowledge of safety, industrial procedures and professional work practices. I am very happy with my learning experience.",
   },
   {
     name: "V. Deepak",
     country: "Qatar",
+    image: "/testimonials/feedback-v-deepak.png",
     quote:
       "DVR's industry-oriented training gave me the confidence and practical knowledge required to work in the Oil & Gas industry. Highly recommended.",
   },
   {
     name: "Shahul Hameed R.",
     country: "Qatar",
+    image: "/testimonials/feedback-shahul-hameed-r.png",
     quote:
       "The practical training and guidance at DVR were very useful. The trainers explained everything clearly and helped me prepare for the job.",
   },
   {
     name: "S. Sri Ganapathy",
     country: "Qatar",
+    image: "/testimonials/feedback-s-sri-ganapathy.png",
     quote:
       "I had a great learning experience at DVR. The trainers were supportive and provided valuable career guidance along with practical training.",
   },
   {
     name: "Santhosh Kumar R.",
     country: "Qatar",
+    image: "/testimonials/feedback-santhosh-kumar-r.png",
     quote:
       "DVR helped me understand safety, permit systems and field procedures through practical training. It was a very valuable experience for my career.",
   },
   {
     name: "Dhusyanth Kumar R.",
     country: "Qatar",
+    image: "/testimonials/feedback-dhusyanth-kumar-r.png",
     quote:
       "The technical training at DVR helped me develop practical skills and understand professional work culture. A great place to prepare for an Oil & Gas career.",
   },
   {
     name: "K. Agathiyan",
     country: "Qatar",
+    image: "/testimonials/feedback-k-agathiyan.png",
     quote:
       "I really appreciated DVR's practical approach to training and career guidance. The experience helped me improve my technical knowledge and confidence.",
   },
   {
     name: "Md. Salman B.",
     country: "Qatar",
+    image: "/testimonials/feedback-md-salman-b.png",
     quote:
       "DVR provided excellent practical training and prepared me for the Oil & Gas industry. The training was informative, professional and career-focused.",
   },
   {
     name: "D. Sanjeev",
     country: "Qatar",
+    image: "/testimonials/feedback-d-sanjeev.png",
     quote:
       "The hands-on training at DVR gave me better technical knowledge and clear career direction. I am thankful to the trainers for their support and guidance.",
   },
